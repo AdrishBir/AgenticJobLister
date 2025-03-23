@@ -1,0 +1,95 @@
+Create and Activate a Virtual Environment:
+
+bash
+Copy
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+Install Dependencies:
+
+bash
+Copy
+pip install -r requirements.txt
+Configure Environment Variables:
+
+Copy .env.example to .env and fill in your credentials:
+
+bash
+Copy
+cp .env.example .env
+Update the .env file with your:
+
+TELEGRAM_TOKEN
+
+OPENROUTER_API_KEY
+
+GOOGLE_SHEETS_CREDENTIALS_PATH
+
+GOOGLE_SHEET_ID
+
+Set Up Google Sheets API:
+
+Follow the Google Sheets API Quickstart to create credentials and download the credentials.json file.
+
+Place the credentials file at the location specified in GOOGLE_SHEETS_CREDENTIALS_PATH.
+
+Run the Application:
+
+bash
+Copy
+python main.py
+Interact with the Telegram Bot:
+
+Start a chat with your bot on Telegram.
+
+Send the /start command.
+
+Provide a job listing URL when prompted.
+
+Future Enhancements
+Integrate Selenium for scraping JavaScript-heavy pages.
+
+Add a web interface for human review and correction of extracted data.
+
+Implement detailed analytics to track extraction accuracy over time.
+
+Enhance caching and rate limiting as needed.
+
+Security Best Practices
+API Key Management: Store API keys in environment variables and never hard-code sensitive information.
+
+Error Handling: All modules include comprehensive error handling and logging.
+
+Enjoy and feel free to extend this framework for your production needs!
+
+yaml
+Copy
+
+---
+
+### Setup Summary
+
+1. **Install Dependencies:**  
+   ```bash
+   pip install -r requirements.txt
+Configure Your Environment:
+
+Copy .env.example to .env and update with your keys and configuration.
+
+Set Up Google Sheets API:
+
+Create a service account and download your credentials JSON.
+
+Update the path in .env.
+
+Run the Application:
+
+bash
+Copy
+python main.py
+Interact via Telegram:
+
+Start a conversation with your bot and send a job listing URL.
+
+This codebase uses async/await where appropriate (in web scraping and LLM processing), implements error handling with retries, and separates concerns for ease of maintenance and extension.
+
+Feel free to adjust the prompt engineering, caching logic, or add additional layers (such as human review or analytics) as needed. Enjoy building your production-ready solution!

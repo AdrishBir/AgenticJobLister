@@ -1,0 +1,182 @@
+2025-03-23 23:21:16,183 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/getMe "HTTP/1.1 200 OK"
+2025-03-23 23:21:16,357 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/deleteWebhook "HTTP/1.1 200 OK"
+2025-03-23 23:21:16,360 [INFO] telegram.ext.Application: Application started
+2025-03-23 23:21:26,866 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/getUpdates "HTTP/1.1 200 OK"
+2025-03-23 23:21:37,039 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/getUpdates "HTTP/1.1 200 OK"
+2025-03-23 23:21:47,215 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/getUpdates "HTTP/1.1 200 OK"
+2025-03-23 23:21:52,943 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/getUpdates "HTTP/1.1 200 OK"
+2025-03-23 23:21:53,650 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/sendMessage "HTTP/1.1 200 OK"
+2025-03-23 23:22:03,539 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/getUpdates "HTTP/1.1 200 OK"
+2025-03-23 23:22:04,985 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/getUpdates "HTTP/1.1 200 OK"
+2025-03-23 23:22:04,990 [ERROR] telegram.ext.Application: No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\adris\Desktop\DS\AgenticJobLister\venv\lib\site-packages\telegram\ext\_application.py", line 1124, in process_update
+    await coroutine
+  File "C:\Users\adris\Desktop\DS\AgenticJobLister\venv\lib\site-packages\telegram\ext\_conversationhandler.py", line 825, in handle_update
+    new_state: object = await handler.handle_update(
+  File "C:\Users\adris\Desktop\DS\AgenticJobLister\venv\lib\site-packages\telegram\ext\_handler.py", line 141, in handle_update
+    return await self.callback(update, context)
+  File "C:\Users\adris\Desktop\DS\AgenticJobLister\telegram_bot.py", line 54, in process_url
+    if not is_valid_url(url):
+  File "C:\Users\adris\Desktop\DS\AgenticJobLister\telegram_bot.py", line 21, in is_valid_url
+    regex = re.compile(
+  File "C:\Users\adris\AppData\Local\Programs\Python\Python310\lib\re.py", line 251, in compile
+    return _compile(pattern, flags)
+  File "C:\Users\adris\AppData\Local\Programs\Python\Python310\lib\re.py", line 303, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "C:\Users\adris\AppData\Local\Programs\Python\Python310\lib\sre_compile.py", line 788, in compile
+    p = sre_parse.parse(p, flags)
+  File "C:\Users\adris\AppData\Local\Programs\Python\Python310\lib\sre_parse.py", line 955, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "C:\Users\adris\AppData\Local\Programs\Python\Python310\lib\sre_parse.py", line 444, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "C:\Users\adris\AppData\Local\Programs\Python\Python310\lib\sre_parse.py", line 841, in _parse
+    p = _parse_sub(source, state, sub_verbose, nested + 1)
+  File "C:\Users\adris\AppData\Local\Programs\Python\Python310\lib\sre_parse.py", line 444, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "C:\Users\adris\AppData\Local\Programs\Python\Python310\lib\sre_parse.py", line 841, in _parse
+    p = _parse_sub(source, state, sub_verbose, nested + 1)
+  File "C:\Users\adris\AppData\Local\Programs\Python\Python310\lib\sre_parse.py", line 444, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "C:\Users\adris\AppData\Local\Programs\Python\Python310\lib\sre_parse.py", line 594, in _parse
+    raise source.error(msg, len(this) + 1 + len(that))
+re.error: bad character range \w-_ at position 132
+2025-03-23 23:22:15,189 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/getUpdates "HTTP/1.1 200 OK"
+2025-03-23 23:22:25,360 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/getUpdates "HTTP/1.1 200 OK"
+2025-03-23 23:22:35,536 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/getUpdates "HTTP/1.1 200 OK"
+2025-03-23 23:22:45,707 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/getUpdates "HTTP/1.1 200 OK"
+2025-03-23 23:22:55,879 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/getUpdates "HTTP/1.1 200 OK"
+2025-03-23 23:23:06,050 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/getUpdates "HTTP/1.1 200 OK"
+2025-03-23 23:23:16,220 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/getUpdates "HTTP/1.1 200 OK"
+2025-03-23 23:23:26,393 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/getUpdates "HTTP/1.1 200 OK"
+2025-03-23 23:23:36,564 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/getUpdates "HTTP/1.1 200 OK"
+2025-03-23 23:23:46,737 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/getUpdates "HTTP/1.1 200 OK"
+2025-03-23 23:23:51,986 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/getUpdates "HTTP/1.1 200 OK"
+2025-03-23 23:23:51,990 [ERROR] telegram.ext.Application: No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\adris\Desktop\DS\AgenticJobLister\venv\lib\site-packages\telegram\ext\_application.py", line 1124, in process_update
+    await coroutine
+  File "C:\Users\adris\Desktop\DS\AgenticJobLister\venv\lib\site-packages\telegram\ext\_conversationhandler.py", line 825, in handle_update
+    new_state: object = await handler.handle_update(
+  File "C:\Users\adris\Desktop\DS\AgenticJobLister\venv\lib\site-packages\telegram\ext\_handler.py", line 141, in handle_update
+    return await self.callback(update, context)
+  File "C:\Users\adris\Desktop\DS\AgenticJobLister\telegram_bot.py", line 54, in process_url
+    if not is_valid_url(url):
+  File "C:\Users\adris\Desktop\DS\AgenticJobLister\telegram_bot.py", line 21, in is_valid_url
+    regex = re.compile(
+  File "C:\Users\adris\AppData\Local\Programs\Python\Python310\lib\re.py", line 251, in compile
+    return _compile(pattern, flags)
+  File "C:\Users\adris\AppData\Local\Programs\Python\Python310\lib\re.py", line 303, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "C:\Users\adris\AppData\Local\Programs\Python\Python310\lib\sre_compile.py", line 788, in compile
+    p = sre_parse.parse(p, flags)
+  File "C:\Users\adris\AppData\Local\Programs\Python\Python310\lib\sre_parse.py", line 955, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "C:\Users\adris\AppData\Local\Programs\Python\Python310\lib\sre_parse.py", line 444, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "C:\Users\adris\AppData\Local\Programs\Python\Python310\lib\sre_parse.py", line 841, in _parse
+    p = _parse_sub(source, state, sub_verbose, nested + 1)
+  File "C:\Users\adris\AppData\Local\Programs\Python\Python310\lib\sre_parse.py", line 444, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "C:\Users\adris\AppData\Local\Programs\Python\Python310\lib\sre_parse.py", line 841, in _parse
+    p = _parse_sub(source, state, sub_verbose, nested + 1)
+  File "C:\Users\adris\AppData\Local\Programs\Python\Python310\lib\sre_parse.py", line 444, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "C:\Users\adris\AppData\Local\Programs\Python\Python310\lib\sre_parse.py", line 594, in _parse
+    raise source.error(msg, len(this) + 1 + len(that))
+re.error: bad character range \w-_ at position 132
+2025-03-23 23:24:02,182 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/getUpdates "HTTP/1.1 200 OK"
+2025-03-23 23:24:12,669 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/getUpdates "HTTP/1.1 200 OK"
+2025-03-23 23:24:22,850 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/getUpdates "HTTP/1.1 200 OK"
+2025-03-23 23:24:33,036 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/getUpdates "HTTP/1.1 200 OK"
+2025-03-23 23:24:43,208 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/getUpdates "HTTP/1.1 200 OK"
+2025-03-23 23:24:53,387 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/getUpdates "HTTP/1.1 200 OK"
+2025-03-23 23:24:53,593 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/getUpdates "HTTP/1.1 200 OK"
+2025-03-23 23:24:53,594 [ERROR] telegram.ext.Application: No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\adris\Desktop\DS\AgenticJobLister\venv\lib\site-packages\telegram\ext\_application.py", line 1124, in process_update
+    await coroutine
+  File "C:\Users\adris\Desktop\DS\AgenticJobLister\venv\lib\site-packages\telegram\ext\_conversationhandler.py", line 825, in handle_update
+    new_state: object = await handler.handle_update(
+  File "C:\Users\adris\Desktop\DS\AgenticJobLister\venv\lib\site-packages\telegram\ext\_handler.py", line 141, in handle_update
+    return await self.callback(update, context)
+  File "C:\Users\adris\Desktop\DS\AgenticJobLister\telegram_bot.py", line 54, in process_url
+    if not is_valid_url(url):
+  File "C:\Users\adris\Desktop\DS\AgenticJobLister\telegram_bot.py", line 21, in is_valid_url
+    regex = re.compile(
+  File "C:\Users\adris\AppData\Local\Programs\Python\Python310\lib\re.py", line 251, in compile
+    return _compile(pattern, flags)
+  File "C:\Users\adris\AppData\Local\Programs\Python\Python310\lib\re.py", line 303, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "C:\Users\adris\AppData\Local\Programs\Python\Python310\lib\sre_compile.py", line 788, in compile
+    p = sre_parse.parse(p, flags)
+  File "C:\Users\adris\AppData\Local\Programs\Python\Python310\lib\sre_parse.py", line 955, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "C:\Users\adris\AppData\Local\Programs\Python\Python310\lib\sre_parse.py", line 444, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "C:\Users\adris\AppData\Local\Programs\Python\Python310\lib\sre_parse.py", line 841, in _parse
+    p = _parse_sub(source, state, sub_verbose, nested + 1)
+  File "C:\Users\adris\AppData\Local\Programs\Python\Python310\lib\sre_parse.py", line 444, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "C:\Users\adris\AppData\Local\Programs\Python\Python310\lib\sre_parse.py", line 841, in _parse
+    p = _parse_sub(source, state, sub_verbose, nested + 1)
+  File "C:\Users\adris\AppData\Local\Programs\Python\Python310\lib\sre_parse.py", line 444, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "C:\Users\adris\AppData\Local\Programs\Python\Python310\lib\sre_parse.py", line 594, in _parse
+    raise source.error(msg, len(this) + 1 + len(that))
+re.error: bad character range \w-_ at position 132
+2025-03-23 23:25:03,782 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/getUpdates "HTTP/1.1 200 OK"
+2025-03-23 23:25:12,565 [INFO] telegram.ext.Application: Application is stopping. This might take a moment.
+2025-03-23 23:25:12,566 [INFO] telegram.ext.Application: Application.stop() complete
+2025-03-23 23:25:17,289 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/getMe "HTTP/1.1 200 OK"
+2025-03-23 23:25:17,463 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/deleteWebhook "HTTP/1.1 200 OK"
+2025-03-23 23:25:17,464 [INFO] telegram.ext.Application: Application started
+2025-03-23 23:25:23,793 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/getUpdates "HTTP/1.1 200 OK"
+2025-03-23 23:25:24,552 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/sendMessage "HTTP/1.1 200 OK"
+2025-03-23 23:25:27,251 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/getUpdates "HTTP/1.1 200 OK"
+2025-03-23 23:25:27,644 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/sendMessage "HTTP/1.1 200 OK"
+2025-03-23 23:25:28,566 [WARNING] utils: Attempt 1/3 for call_openrouter_api failed with error: Cannot connect to host api.openrouter.ai:443 ssl:default [getaddrinfo failed]. Retrying in 2 seconds...
+2025-03-23 23:25:30,576 [WARNING] utils: Attempt 2/3 for call_openrouter_api failed with error: Cannot connect to host api.openrouter.ai:443 ssl:default [getaddrinfo failed]. Retrying in 2 seconds...
+2025-03-23 23:25:32,602 [WARNING] utils: Attempt 3/3 for call_openrouter_api failed with error: Cannot connect to host api.openrouter.ai:443 ssl:default [getaddrinfo failed]. Retrying in 2 seconds...
+2025-03-23 23:25:34,620 [ERROR] utils: All 3 attempts failed for call_openrouter_api.
+2025-03-23 23:25:34,620 [ERROR] llm_processor: LLM processing failed: Cannot connect to host api.openrouter.ai:443 ssl:default [getaddrinfo failed]
+2025-03-23 23:25:34,621 [ERROR] telegram_bot: Error processing URL https://sg.jobsdb.com/j?sp=search&trigger_source=serp&q=AI+engineer&l=: Cannot connect to host api.openrouter.ai:443 ssl:default [getaddrinfo failed]
+2025-03-23 23:25:35,375 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/sendMessage "HTTP/1.1 200 OK"
+2025-03-23 23:25:37,464 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/getUpdates "HTTP/1.1 200 OK"
+2025-03-23 23:25:47,667 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/getUpdates "HTTP/1.1 200 OK"
+2025-03-23 23:25:48,372 [INFO] telegram.ext.Application: Application is stopping. This might take a moment.
+2025-03-23 23:25:48,373 [INFO] telegram.ext.Application: Application.stop() complete
+2025-03-23 23:29:41,329 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/getMe "HTTP/1.1 200 OK"
+2025-03-23 23:29:41,499 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/deleteWebhook "HTTP/1.1 200 OK"
+2025-03-23 23:29:41,499 [INFO] telegram.ext.Application: Application started
+2025-03-23 23:29:52,049 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/getUpdates "HTTP/1.1 200 OK"
+2025-03-23 23:29:52,430 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/getUpdates "HTTP/1.1 200 OK"
+2025-03-23 23:29:53,286 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/sendMessage "HTTP/1.1 200 OK"
+2025-03-23 23:29:58,808 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/getUpdates "HTTP/1.1 200 OK"
+2025-03-23 23:29:59,656 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/sendMessage "HTTP/1.1 200 OK"
+2025-03-23 23:30:00,508 [WARNING] utils: Attempt 1/3 for call_openrouter_api failed with error: Cannot connect to host api.openrouter.ai:443 ssl:default [getaddrinfo failed]. Retrying in 2 seconds...
+2025-03-23 23:30:02,517 [WARNING] utils: Attempt 2/3 for call_openrouter_api failed with error: Cannot connect to host api.openrouter.ai:443 ssl:default [getaddrinfo failed]. Retrying in 2 seconds...
+2025-03-23 23:30:04,531 [WARNING] utils: Attempt 3/3 for call_openrouter_api failed with error: Cannot connect to host api.openrouter.ai:443 ssl:default [getaddrinfo failed]. Retrying in 2 seconds...
+2025-03-23 23:30:06,545 [ERROR] utils: All 3 attempts failed for call_openrouter_api.
+2025-03-23 23:30:06,546 [ERROR] llm_processor: LLM processing failed: Cannot connect to host api.openrouter.ai:443 ssl:default [getaddrinfo failed]
+2025-03-23 23:30:06,546 [ERROR] telegram_bot: Error processing URL https://sg.jobsdb.com/j?sp=search&trigger_source=serp&q=AI+engineer&l=: Cannot connect to host api.openrouter.ai:443 ssl:default [getaddrinfo failed]
+2025-03-23 23:30:07,284 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/sendMessage "HTTP/1.1 200 OK"
+2025-03-23 23:30:07,795 [INFO] telegram.ext.Application: Application is stopping. This might take a moment.
+2025-03-23 23:30:07,795 [INFO] telegram.ext.Application: Application.stop() complete
+2025-03-23 23:31:42,548 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/getMe "HTTP/1.1 200 OK"
+2025-03-23 23:31:42,770 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/deleteWebhook "HTTP/1.1 200 OK"
+2025-03-23 23:31:42,771 [INFO] telegram.ext.Application: Application started
+2025-03-23 23:31:51,355 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/getUpdates "HTTP/1.1 200 OK"
+2025-03-23 23:31:52,046 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/sendMessage "HTTP/1.1 200 OK"
+2025-03-23 23:32:00,113 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/getUpdates "HTTP/1.1 200 OK"
+2025-03-23 23:32:00,847 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/sendMessage "HTTP/1.1 200 OK"
+2025-03-23 23:32:01,735 [WARNING] utils: Attempt 1/3 for call_openrouter_api failed with error: Cannot connect to host api.openrouter.ai:443 ssl:default [getaddrinfo failed]. Retrying in 2 seconds...
+2025-03-23 23:32:03,742 [WARNING] utils: Attempt 2/3 for call_openrouter_api failed with error: Cannot connect to host api.openrouter.ai:443 ssl:default [getaddrinfo failed]. Retrying in 2 seconds...
+2025-03-23 23:32:05,755 [WARNING] utils: Attempt 3/3 for call_openrouter_api failed with error: Cannot connect to host api.openrouter.ai:443 ssl:default [getaddrinfo failed]. Retrying in 2 seconds...
+2025-03-23 23:32:07,770 [ERROR] utils: All 3 attempts failed for call_openrouter_api.
+2025-03-23 23:32:07,770 [ERROR] llm_processor: LLM processing failed: Cannot connect to host api.openrouter.ai:443 ssl:default [getaddrinfo failed]
+2025-03-23 23:32:07,770 [ERROR] telegram_bot: Error processing URL https://sg.jobsdb.com/j?sp=search&trigger_source=serp&q=AI+engineer&l=: Cannot connect to host api.openrouter.ai:443 ssl:default [getaddrinfo failed]
+2025-03-23 23:32:08,511 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/sendMessage "HTTP/1.1 200 OK"
+2025-03-23 23:32:10,287 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot6856166795:AAFBBNABVjqgSEWEW0QrUdm-GD8zz681Rlc/getUpdates "HTTP/1.1 200 OK"
+2025-03-23 23:32:12,780 [INFO] telegram.ext.Application: Application is stopping. This might take a moment.
+2025-03-23 23:32:12,781 [INFO] telegram.ext.Application: Application.stop() complete
